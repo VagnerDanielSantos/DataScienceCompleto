@@ -22,7 +22,7 @@ Azure <- FALSE
 if(Azure)
   {
     source('src/Tools.R')
-    bikes <- manl.mapInputPort(1)
+    bikes <- maml.mapInputPort(1)
     bikes$dteday <- set.asPOSIXct(bikes)
   }else
   {
